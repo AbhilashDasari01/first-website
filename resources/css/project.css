@@ -1,0 +1,233 @@
+body{
+  background-image:linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(84, 84, 84, 0.9)),url('../../images/wp3916518.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 325vh;
+     max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+}
+.topnav {
+    overflow: hidden;
+
+        border-radius: 5px;
+}
+.topnav a{
+    float: right;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family:arial;
+    font-size: 15px;
+    transition: transform 0.5s;
+    
+
+    
+}
+.topnav a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    transform: translateY(-2px)
+}
+.topnav a:active{
+    border-bottom: 3px solid white;
+}
+.topnav .options{
+    display:none;
+}
+@media screen and (max-width:750px){
+    .topnav .options{
+        display: block;
+        float: left;
+        font-size: 30px;
+    }
+    .topnav a{
+        display: none;
+    }
+    .topnav.responsive{
+        position: relative;
+        background-color: #333;
+        height: 10vh;
+    }
+    .topnav.responsive .options{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: aliceblue;
+    }
+    .topnav.responsive a{
+        float:none;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }
+
+}
+   .title {
+       font-family: sans-serif;;
+        font-size: 50px;
+       text-align: center;
+    transition :transform 0.6s;
+    border-radius: 15px;
+       text-shadow:5px 10px 20px rgba(0,0,0,0.8);
+      
+       padding:50px;
+    color:white; 
+       margin left: 20%;
+}
+
+@media screen and (max-width:750px){
+    body{
+        height: 280vh;
+    }
+    .title{
+        font-size: 35px;
+    }
+}
+.mytop10anime {
+    margin-left: 10%;
+        margin-right: 10%;
+}
+.animebod{
+    padding-bottom:100px;
+}
+.deathnote{
+    background-image: url('../../images/death_note_by_zzyzzyy-d8bsgvr.jpg');
+    background-size: cover;
+    background-position:50% 30%;
+ 
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height:30vh;
+    box-shadow: 15px 10px 20px rgba(0,0,0,0.8);
+    transition:transform 0.5s;
+   
+
+}
+.deathnote_logo{
+   margin-top: 25vh;
+    
+  height:7vh;
+    
+}
+.deathnote:hover{
+    transform: scale(1.1);
+}
+
+.naruto {
+   background-image:url('../../images/naruto-and-sasuke-nawpic-6.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 30vh;
+    box-shadow: 15px 10px 20px rgba(0,0,0,0.8);
+    transition:transform 0.5s;
+    margin-top: 15vh;
+   
+}
+
+.naruto:hover{
+    transform: scale(1.1);
+}
+.naruto_logo {
+    height: 10vh;
+    margin-top: 25vh;
+}
+
+.aot {
+    background-image:url(../../images/388557.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 30vh;
+    box-shadow: 15px 10px 20px rgba(0,0,0,0.8);
+    transition:transform 0.5s;
+    margin-top: 15vh;
+}
+.aot:hover{
+     transform: scale(1.1);
+}
+.aot_logo {
+    margin-top: 25vh;
+    height: 11vh;
+}
+
+.tokyoghoul {
+     background-image:url('../../images/61f92acef2e28.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 30vh;
+    box-shadow: 15px 10px 20px rgba(0,0,0,0.8);
+    transition:transform 0.5s;
+    margin-top: 15vh;
+}
+.tokyoghoul:hover{
+    transform: scale(1.1);
+}
+.tokyoghoul_logo{
+     margin-top: 25vh;
+    height: 12vh;
+}
+.dragonball{
+     background-image:url(../../images/wp2328950.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 30vh;
+    box-shadow: 15px 10px 20px rgba(0,0,0,0.8);
+    transition:transform 0.5s;
+    margin-top: 15vh;
+}
+.dragonball:hover{
+     transform: scale(1.1);
+}
+.dragonball_logo{
+     margin-top: 25vh;
+    height: 12vh;
+}
+.animetitle{
+    margin-top: 32vh;
+}
+@media screen and (max-width:750px){
+    .back{
+        height: 20vh;
+    }
+    .animetitle{
+        margin-top: 22vh;
+    }
+}
+footer{
+    background-color: #333;
+}
+.socials{
+    color: white;
+    font-size: 50px;
+    margin-top: 10vh;
+    background-color: #333;
+    text-align: center;
+    margin-right: -10vh;
+    margin-left: -10vh;
+    padding-top: 10vh;
+    padding-bottom:10vh;
+    max-height: 100%;
+}
+
+.social_icons {
+    text-align: left;
+    text-decoration: none;
+     color: white;
+    font-size: 25px;
+    
+}
