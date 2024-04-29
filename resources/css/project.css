@@ -7,6 +7,9 @@ body{
     max-height: 100%;
     overflow: hidden;
     overflow-y: scroll;
+  justify-content: center;
+        align-items: center;
+  
   
 }
 
@@ -141,9 +144,9 @@ body{
 }
 
 footer{
-    display: flex; /* Use flexbox for layout */
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
+    display: flex;
+        justify-content: center;
+        align-items: center; 
     
     
 }
@@ -167,7 +170,7 @@ footer{
     
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:600px){
     .back{
         height: 10vh;
     }
@@ -176,6 +179,6 @@ footer{
     }
     .social_icons{
         font-size: 15px;
-        padding:0 5vw;
+        padding:0 3vw;
     }
 }
