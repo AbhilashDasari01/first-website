@@ -169,10 +169,10 @@ footer{
 
 @media screen and (max-width:750px){
     .back{
-        height: 15vh;
+        height: 10vh;
     }
     .animetitle{
-        margin-top: 22vh;
+        margin-top: 20vh;
     }
     .social_icons{
         font-size: 15px;
