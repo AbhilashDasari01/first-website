@@ -169,15 +169,18 @@ footer{
     
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:750px){
     .back{
-        height: 10vh;
+        height: 15vh;
     }
     .animetitle{
-        margin-top: 20vh;
+        position:relative;
+        margin-top:15vh;
+        align-items: center;
+        justify-content: center;
     }
     .social_icons{
         font-size: 15px;
-        padding:0 1vw;
+        padding:0 2vw;
     }
 }
