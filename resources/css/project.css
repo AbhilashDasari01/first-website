@@ -166,7 +166,7 @@ footer{
     text-decoration: none;
      color: white;
     font-size: 25px;
-    padding: 0vh 8vw
+    padding: 0vh 5vw
     
 }
 
@@ -179,6 +179,6 @@ footer{
     }
     .social_icons{
         font-size: 15px;
-        padding:0 3vw;
+        padding:0 1vw;
     }
 }
